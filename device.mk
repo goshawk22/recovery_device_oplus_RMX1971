@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Launched with pie
 $(call inherit-product, build/make/target/product/product_launched_with_p.mk)
+
+# Custom ROM asserts
+TARGET_OTA_ASSERT_DEVICE := RMX1971,RMX1971CN,nicky
  
 # Build from source 
 TARGET_RECOVERY_DEVICE_MODULES += \
