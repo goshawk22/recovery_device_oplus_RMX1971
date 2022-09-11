@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/oplus/nicky
+DEVICE_PATH := device/oplus/RMX1971
 
 # Architecture
 TARGET_ARCH := arm64

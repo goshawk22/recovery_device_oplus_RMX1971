@@ -1,4 +1,4 @@
-# recovery_device_oplus_nicky
+# recovery_device_oplus_RMX1971
 Recovery tree for realme sdm710 devices
 
 ## Features
@@ -16,14 +16,14 @@ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifes
 repo sync -c
 ```
 
-Then clone the current device tree onto device/oplus/nicky
+Then clone the current device tree onto device/oplus/RMX1971
 
 
 Finally execute these:
 
 ```
 . build/envsetup.sh
-lunch twrp_nicky-eng
+lunch twrp_RMX1971-eng
 mka recoveryimage
 ```
 
